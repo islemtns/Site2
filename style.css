@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@300&display=swap');
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+	/*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);*/
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 80px;
+	flex-wrap: wrap;
+	position: sticky;
+	font-size: 24px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border: none;
+}
+.bouttons:hover{
+	text-decoration: underline;
+	color: black;
+}
+.bouttons{
+	padding: 5px;
+	cursor: pointer;
+}
+#logo{
+	display: flex;
+
+}
+#mot{
+	padding: 0px 10px;
+}
+button{
+	border: none;
+	background: black;
+	color: white;
+	padding: 30px 30px;
+	font-size: 30px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+button:hover{
+	border: none;
+	background: #485563;
+	color: white;
+	padding: 30px 30px;
+	font-size: 30px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+#box1{
+	/*border: 2px black solid;*/
+	margin: 50px 100px 0px 100px;
+	padding: 50px 0px 100px 0px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	font-size: 30px;
+}
+#box2{
+	border: 3px rgba(0, 0, 0, 0.822) solid;
+	margin: 100px 400px 100px 400px;
+	padding: 10px 20px 20px 20px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 10px;
+}
+#text1{
+	border-bottom: 2px #4855637c solid;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+.bouttonlireplus{
+	cursor: pointer;
+	font-weight: bold;
+}
+footer{
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 100px;
+	padding: 25px 0px 0px 0px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#logo2{
+	padding: 10px 50px 0px 0px;
+}
+#copy{
+	padding: 0px 0px 25px 40px;
+	font-size: 15px;
+}
+#box3{
+	border: 3px rgba(0, 0, 0, 0.822) solid;
+	margin: 0px 400px 100px 400px;
+	padding: 10px 20px 20px 20px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 10px;
+}
+.bouttonlireplus:hover{
+	text-decoration: underline;
+}
